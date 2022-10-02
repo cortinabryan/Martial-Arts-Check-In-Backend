@@ -9,7 +9,7 @@ import {
 
 const router = express.Router();
 
-// all routes in here are starting with /users
+// all routes in here are starting with /histories
 router.get("/", getHistories);
 
 // Generate new user and random id

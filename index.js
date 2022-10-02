@@ -1,6 +1,6 @@
 import express from "express"; // library / framework
 import bodyParser from "body-parser"; // allows you to access req.body from within routes and use that data.
-import cors from "cors";
+import cors from "cors"; // is security feature that can check if you get only request from accepted domains
 
 import { historyRoutes } from "./routes/history.js";
 
